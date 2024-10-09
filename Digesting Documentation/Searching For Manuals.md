@@ -1,6 +1,6 @@
 # Searching for Manuals
 Connected to sever, used man man to access the man manual.Then used man -k challenge to find all the commands that reference to man.Then I opened the manual of the output and followed the instructions given in the manual to invoke the flag.
-***
+```bash
 hacker@man~searching-for-manuals:~$ man man
 MAN(1)                                                             Manual pager utils                                                             MAN(1)
 
@@ -78,7 +78,7 @@ SEE ALSO
 pwn.college                                                             May 2024                                                            CHALLENGE(1)
 hacker@man~searching-for-manuals:~$ /challenge/challenge --wdvzeg 840
 Correct usage! Your flag: pwn.college{w8dGvzeDgOMUBmWwDlQSjKtOFBd.dZTM4QDLykjN0czW}
-***
+```
 Resources used:Dojo,Had to take a little help from mentor.
 
 
