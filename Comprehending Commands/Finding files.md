@@ -1,7 +1,7 @@
 # Finding files
 Connected to the server, used find / -name flag to search for all the files that have flag in them. Then withing the list it generated, used cat to read all the paths that did not given permission denied to find 
 out which is the desired flag.
-***
+```bash
 linux@Geethika:~$ ssh -i ./key hacker@dojo.pwn.college
 Connected!
 hacker@commands~finding-files:~$ find / -name flag
@@ -50,5 +50,5 @@ hacker@commands~finding-files:~$ cat /usr/local/share/radare2/5.9.5/flag
 cat: /usr/local/share/radare2/5.9.5/flag: Is a directory
 hacker@commands~finding-files:~$ cat /opt/busybox/busybox-1.33.2/include/config/install/sh/applet/script/flag
 pwn.college{g90gH01_WD5iXU75Fo07OWo0Fbl.dJzM4QDLykjN0czW}
-***
+```
 Resources used:Dojo
