@@ -1,7 +1,7 @@
 # Grepping stored results
 Connected to the server, used > to redirect the output of /challenge/run to /tmp/data.txt. Then used grep pwn.college /tmp/data.txt to search for the flag. Used pwn.college under grep because all the flags start with
 it.
-***
+```bash
 hacker@piping~grepping-stored-results:~$ /challenge/run > /tmp/data.txt
 [INFO] WELCOME! This challenge makes the following asks of you:
 [INFO] - the challenge will check that output is redirected to a specific file path : /tmp/data.txt
@@ -22,5 +22,5 @@ hacker@piping~grepping-stored-results:~$ /challenge/run > /tmp/data.txt
 [PASS] Success! You have satisfied all execution requirements.
 hacker@piping~grepping-stored-results:~$ grep pwn.college /tmp/data.txt
 pwn.college{ohvYT5fRUBV7jQxICWZL7rtlwDE.dhTM4QDLykjN0czW}
-***
+```
 Resources used:Dojo
