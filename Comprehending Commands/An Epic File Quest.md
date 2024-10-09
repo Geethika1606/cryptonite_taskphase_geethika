@@ -1,7 +1,7 @@
 # An Epic File Quest
 Connected to the server and changed directory using cd command. Then used ls to read the current directory. Used cat with SECRET to read it as it was synonymous to HINT/CLUE and got a clue within it to proceed
 further. Again changed directory according to the clue given, used ls to read it and cat to find the next clue. Follow the instructions given and repeated the process till flag was invoked.
-***
+```bash
 Connected!
 hacker@commands~an-epic-filesystem-quest:~$ cd /
 hacker@commands~an-epic-filesystem-quest:/$ ls
@@ -91,5 +91,5 @@ hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/nyx_mode/libnyx/libnyx
 hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/nyx_mode/libnyx/libnyx/target/release/.fingerprint/indexmap-6f6526087fd2d7aa$ cat .README
 CONGRATULATIONS! Your perserverence has paid off, and you have found the flag!
 It is: pwn.college{0k5CxyO5Jp-uJLPUy-TNIohHdds.dljM4QDLykjN0czW}
-***
+```
 Resources used:Dojo
