@@ -1,6 +1,6 @@
 # Help for Builtins
 Connected to server, used help challenge to open challenge manual and used --secret 0n4n_4QG to invoke flag as per the instructions.
-***
+```bash
 Connected!
 hacker@man~help-for-builtins:~$ help challenge
 challenge: challenge [--fortune] [--version] [--secret SECRET]
@@ -16,5 +16,5 @@ challenge: challenge [--fortune] [--version] [--secret SECRET]
 hacker@man~help-for-builtins:~$ challenge  --secret 0n4n_4QG
 Correct! Here is your flag!
 pwn.college{0n4n_4QG-_rI3iYqd8Ivjcy-nzf.dRTM5QDLykjN0czW}
-***
+```
 Resources used:Dojo
