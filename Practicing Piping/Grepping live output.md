@@ -1,7 +1,7 @@
 # Grepping live output
 Connected to the server, used /challenge/run | grep pwn.college to invoke the flag . The main difference between this challenge and grepping stored result is that in this challenge there is not requirement to store
 the result both redirecting to  /challenge/run and grepping flag using pwn.college is done in one line leading to more structured code.
-***
+```bash
 hacker@piping~grepping-live-output:~$ /challenge/run | grep pwn.college
 [INFO] WELCOME! This challenge makes the following asks of you:
 [INFO] - the challenge checks for a specific process at the other end of stdout : grep
@@ -22,5 +22,5 @@ hacker@piping~grepping-live-output:~$ /challenge/run | grep pwn.college
 [PASS] You have passed the checks on the process on the other end of my stdout!
 [PASS] Success! You have satisfied all execution requirements.
 pwn.college{IjaSZHP_VVFluWDCcfVMmFhptlp.dlTM4QDLykjN0czW}
-***
+```
 Resources used: Dojo
