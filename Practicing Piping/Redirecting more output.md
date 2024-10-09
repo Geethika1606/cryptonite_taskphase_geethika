@@ -1,6 +1,6 @@
 # Redirecting more output
 Connected to the server, redirected from /challenge/run to myflag using >. Then used ls to find out the list of files in myflag. Used the cat command with myflag to invoke the required flag.
-***
+```bash
 hacker@piping~redirecting-more-output:~$ /challenge/run > myflag
 [INFO] WELCOME! This challenge makes the following asks of you:
 [INFO] - the challenge will check that output is redirected to a specific file path : myflag
@@ -21,5 +21,5 @@ hacker@piping~redirecting-more-output:~$ cat myflag
 
 [FLAG] Here is your flag:
 [FLAG] pwn.college{4xPJW1iI6YC247qsHHVVrFWu45v.dVjN1QDLykjN0czW}
-***
+```
 Resources used:Dojo
