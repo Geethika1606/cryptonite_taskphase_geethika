@@ -1,6 +1,6 @@
 # Position elsewhere
 Linked to the server, ran /challenge/run to figure out which directory to redirect to. Redirected to /proc/67 using cd command and invoked /challenge/run from it.
-***
+```bash
 hacker@paths~position-elsewhere:~$ /challenge/run
 Incorrect...
 You are not currently in the /proc/67 directory.
@@ -11,5 +11,5 @@ Correct!!!
 /challenge/run is an absolute path, invoked from the right directory!
 Here is your flag:
 pwn.college{8SdzH9rQlJ60FNOyyQlDJoGRQyr.ddDN1QDLykjN0czW}
-***
+```
 Resources used:Dojo
