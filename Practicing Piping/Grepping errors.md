@@ -1,6 +1,6 @@
 # Grepping errors
 Connected to the server, used /challenge/run 2>&1 | grep pwn.college to get the flag. Here, I am redirecting to /challenge/run error as I am using 2>&1 command and then grepping for flag using pwn.college.
-***
+```bash
 hacker@piping~grepping-errors:~$ /challenge/run 2>&1 | grep pwn.college
 [INFO] WELCOME! This challenge makes the following asks of you:
 [INFO] - the challenge checks for a specific process at the other end of stderr : grep
@@ -21,5 +21,5 @@ hacker@piping~grepping-errors:~$ /challenge/run 2>&1 | grep pwn.college
 [PASS] You have passed the checks on the process on the other end of my stderr!
 [PASS] Success! You have satisfied all execution requirements.
 pwn.college{09EWensWI39ArDCLU7ISLps4_JC.dVDM5QDLykjN0czW}
-***
+```
 Resources used:Dojo
