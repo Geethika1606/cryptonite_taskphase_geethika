@@ -1,7 +1,7 @@
 # Appending Output
 Connected to server, used >> to redirect to /home/hacker/the-flag by running it with /challenge/run. Used >> to redirect in append mode. Then used ls to find flag. Used cat myflag to invoke the flag but it did not
 give the correct flag as the flag to be invoked is the-flag. Then used cat the-flag to invoke the right flag.
-***
+```bash
 Connected!
 hacker@piping~appending-output:~$ /challenge/run >> /home/hacker/the-flag
 [INFO] WELCOME! This challenge makes the following asks of you:
@@ -45,5 +45,5 @@ If you only see the second half above, you redirected in truncate mode (>)
 rather than append mode (>>), and so the write of the second half to stdout
 overwrote the initial write of the first half directly to the file. Try append
 mode!
-***
+```
 Resources used:Dojo
